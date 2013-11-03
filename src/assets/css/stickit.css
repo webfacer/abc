@@ -1,0 +1,14 @@
+.stickit:after {
+	content: ' pi';
+}
+
+.stickit {
+	cursor: pointer;
+}
+
+#connectToStickit {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
