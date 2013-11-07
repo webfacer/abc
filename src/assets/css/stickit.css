@@ -1,14 +1,22 @@
 .stickit:after {
-	content: ' pi';
+    content: ' pi';
 }
 
 .stickit {
-	cursor: pointer;
+    cursor: pointer;
 }
 
+// textarea variant
 #connectToStickit {
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
 }
 
+h2 #stickit  {
+    display: none;
+}
+
+h2:hover #stickit {
+    display: block;
+}
